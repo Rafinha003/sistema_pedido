@@ -10,24 +10,24 @@ Este projeto simula um **sistema de pedidos online**, permitindo a criação e o
 
 SistemaPedidosOnline/
 │
-├── Main.java                          → Simulação prática do sistema (ponto de entrada)
+├── Main.java → Simulação prática do sistema (ponto de entrada)
 │
-├── facade/                            → Interface de uso simplificada para o usuário
-│   └── SistemaDePedidosFacade.java   → Centraliza as operações de alto nível
+├── facade/ → Interface de uso simplificada para o usuário
+│ └── SistemaDePedidosFacade.java → Centraliza as operações de alto nível
 │
-├── factory/                           → Lógica de criação dos produtos
-│   ├── ProdutoFactory.java           → Fábrica abstrata (Factory Method)
-│   ├── ProdutoEletronicoFactory.java→ Fábrica concreta de eletrônicos
-│   └── ProdutoAlimenticioFactory.java→ Fábrica concreta de alimentos
+├── factory/ → Lógica de criação dos produtos
+│ ├── ProdutoFactory.java → Fábrica abstrata (Factory Method)
+│ ├── ProdutoEletronicoFactory.java→ Fábrica concreta de eletrônicos
+│ └── ProdutoAlimenticioFactory.java→ Fábrica concreta de alimentos
 │
-├── model/                             → Modelos de domínio (entidades principais)
-│   ├── Produto.java                  → Classe abstrata base
-│   ├── ProdutoEletronico.java       → Subclasse para eletrônicos
-│   ├── ProdutoAlimenticio.java      → Subclasse para alimentos
-│   └── Pedido.java                  → Agregador de produtos (um pedido)
+├── model/ → Modelos de domínio (entidades principais)
+│ ├── Produto.java → Classe abstrata base
+│ ├── ProdutoEletronico.java → Subclasse para eletrônicos
+│ ├── ProdutoAlimenticio.java → Subclasse para alimentos
+│ └── Pedido.java → Agregador de produtos (um pedido)
 │
-├── singleton/                         → Simulação de banco de dados
-│   └── BancoDeDados.java            → Singleton que gerencia os dados em memória
+├── singleton/ → Simulação de banco de dados
+│ └── BancoDeDados.java → Singleton que gerencia os dados em memória
 
 ## 🧩 Padrões de Projeto Utilizados
 
