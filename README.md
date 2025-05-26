@@ -9,7 +9,7 @@ Este projeto simula um **sistema de pedidos online**, permitindo a criação e o
 ## 🧱 Arquitetura Geral
 
 ```
-"SistemaPedidosOnline/"
+"trabalho-samuel/"
 │
 ├── "Main.java"                          → Simulação prática do sistema (ponto de entrada)
 │
