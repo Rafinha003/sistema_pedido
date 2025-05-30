@@ -99,4 +99,5 @@ Segue o princípio de encapsulamento e separação de responsabilidades.
 ## 🧩 Diagrama uml
 plataforma onde foi feito: Lucidchart
 
-<img src="imagem-uml/UML-diagrama.png" alt="Diagrama UML do sistema de pedidos" width="600"/>
+![Diagrama UML do sistema de pedidos](imagem-uml/UML-diagrama.png)
+
