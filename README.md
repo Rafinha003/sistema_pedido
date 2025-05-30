@@ -1,4 +1,4 @@
-# 🛒 Sistema de Pedidos Online (Java)
+# 🛒 Sistema de Pedidos Online
 
 ## 📌 Tema escolhido
 
